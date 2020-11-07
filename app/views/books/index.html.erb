@@ -23,7 +23,7 @@
         </td>
         
         <td>
-          <%= link_to "Destory" , books_path , method: :delete %>
+          <%= link_to "Destory" , book_path(book.id), method: :delete %>
         </td>
       </tr>
     <% end %>
